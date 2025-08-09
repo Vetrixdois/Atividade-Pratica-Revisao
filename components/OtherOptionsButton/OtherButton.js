@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     borderWidth: 1, 
     borderColor: '#43d38d',            // Bordas arredondadas
     paddingVertical: 16,         // Espaçamento vertical
-    paddingHorizontal: 58,       // Espaçamento horizontal
+    paddingHorizontal: 81,       // Espaçamento horizontal
     marginVertical: 10,          // Margem vertical
     justifyContent: 'center',    // Alinha o conteúdo no centro
     alignItems: 'center',        // Alinha o conteúdo no centro

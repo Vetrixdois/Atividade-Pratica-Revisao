@@ -3,11 +3,10 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Button from './components/GoogleButton/ButtonGoogle';
-import OtherButton from './components/OtherOptionsButton/OtherButton';
-import Google from './assets/Google.png'
-import Dog from './assets/casual_dog.png'
-import LoginPage from './pages/loginPage/loginPage.js'
+import Button from '../../components/GoogleButton/ButtonGoogle.js';
+import OtherButton from '../../components/OtherOptionsButton/OtherButton.js'
+import Google from '../../assets/Google.png'
+import Dog from '../../assets/casual_dog.png'
 
 const HomePage = ({ navigation }) => {
     return (
@@ -20,7 +19,7 @@ const HomePage = ({ navigation }) => {
 
       <Button
         imageSource={Google} // Imagem para o botão (se necessário)
-        onPress={() => navigation.navigate('loginPage')}
+        onPress={() => navigation.navigate('LoginPage')}
       />
       <OtherButton/>
     </View>
